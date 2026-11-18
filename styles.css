@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F7FB;
+    color: #444;
+}
+
+.site-header {
+    background-color: #0B1F3A;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.site-nav {
+    background-color: #163A5F;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.main-centered {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main-padded {
+    padding: 30px;
+}
+
+.section-title {
+    color: #0B1F3A;
+    text-align: center;
+}
+
+.hero-title {
+    color: #0B1F3A;
+    font-size: 32px;
+}
+
+.intro-text {
+    color: #444;
+    font-size: 18px;
+}
+
+.body-text {
+    color: #444;
+}
+
+.muted-text {
+    color: #555;
+    font-size: 14px;
+}
+
+.primary-link {
+    display: inline-block;
+    background-color: #0B1F3A;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.destinations-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.card,
+.form-card,
+.article-card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-card {
+    max-width: 500px;
+    padding: 30px;
+    text-align: left;
+}
+
+.form-card-small {
+    max-width: 400px;
+}
+
+.card-heading,
+.section-heading {
+    color: #163A5F;
+    text-align: center;
+}
+
+.card-heading-left {
+    color: #163A5F;
+}
+
+.article-card {
+    max-width: 500px;
+}
+
+.card-with-margin {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.wide-card {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.form-label,
+.contact-title {
+    color: #0B1F3A;
+}
+
+.form-control {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.primary-button {
+    background-color: #0B1F3A;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.remember-label,
+.small-centered-text {
+    color: #444;
+}
+
+.small-centered-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.text-link,
+.location-link {
+    color: #163A5F;
+}
+
+.article-title {
+    color: #0B1F3A;
+}
+
+.content-image {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.image-350 {
+    width: 350px;
+}
+
+.image-300 {
+    width: 300px;
+}
+
+.site-footer {
+    background-color: #0B1F3A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

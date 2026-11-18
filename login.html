@@ -5,13 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Iniciar Sesión - Aerolínea JJY</title>
 </head>
 
-<body style="margin: 0; font-family: Arial; background-color: #F4F7FB;">
+<body>
 
     <!-- ENCABEZADO -->
-    <header style="background-color: #0B1F3A; color: white; text-align: center; padding: 25px;">
+    <header class="site-header">
 
         <h1>Aerolínea JJY</h1>
         <p>Conectamos destinos, acercamos personas.</p>
@@ -19,88 +20,85 @@
     </header>
 
     <!-- MENU DE NAVEGACION -->
-    <nav style="background-color: #163A5F; text-align: center; padding: 15px;">
+    <nav class="site-nav">
 
-        <a href="index.html" style="color: white;">Inicio</a> |
-        <a href="nosotros.html" style="color: white;">Sobre Nosotros</a> |
-        <a href="servicios.html" style="color: white;">Vuelos y Servicios</a> |
-        <a href="contacto.html" style="color: white;">Contáctanos</a> |
-        <a href="login.html" style="color: white;">Iniciar Sesión</a> |
-        <a href="sitios.html" style="color: white;">Sitios de Interés</a>
+        <a class="nav-link" href="index.html">Inicio</a> |
+        <a class="nav-link" href="nosotros.html">Sobre Nosotros</a> |
+        <a class="nav-link" href="servicios.html">Vuelos y Servicios</a> |
+        <a class="nav-link" href="contacto.html">Contáctanos</a> |
+        <a class="nav-link" href="login.html">Iniciar Sesión</a> |
+        <a class="nav-link" href="sitios.html">Sitios de Interés</a>
 
     </nav>
 
     <!-- CONTENIDO PRINCIPAL -->
-    <main style="padding: 40px 20px; text-align: center;">
+    <main class="main-centered">
 
-        <h2 style="color: #0B1F3A;">Bienvenido a Aerolínea JJY</h2>
+        <h2 class="section-title">Bienvenido a Aerolínea JJY</h2>
 
-        <p style="color: #444;">
+        <p class="body-text">
             Inicia sesión para acceder a nuestros servicios y disfrutar de una mejor experiencia de viaje.
         </p>
 
         <!-- FORMULARIO DE INICIO DE SESION -->
-        <section style="background-color: white; max-width: 400px; margin: 30px auto; padding: 30px; text-align: left;">
+        <section class="form-card form-card-small">
 
-            <h3 style="color: #163A5F; text-align: center;">Iniciar Sesión</h3>
+            <h3 class="card-heading">Iniciar Sesión</h3>
 
             <form action="#" method="post">
 
-                <label for="correo" style="color: #0B1F3A;">
+                <label class="form-label" for="correo">
                     Correo electrónico:
                 </label>
 
                 <br><br>
 
-                <input
+                <input class="form-control"
                     type="email"
                     id="correo"
                     name="correo"
                     placeholder="Ingrese su correo electrónico"
                     required
-                    style="width: 95%; padding: 10px; border: 1px solid #ccc;"
                 >
 
                 <br><br>
 
-                <label for="contrasena" style="color: #0B1F3A;">
+                <label class="form-label" for="contrasena">
                     Contraseña:
                 </label>
 
                 <br><br>
 
-                <input
+                <input class="form-control"
                     type="password"
                     id="contrasena"
                     name="contrasena"
                     placeholder="Ingrese su contraseña"
                     required
-                    style="width: 95%; padding: 10px; border: 1px solid #ccc;"
                 >
 
                 <br><br>
 
-                <label style="color: #444;">
-                    <input type="checkbox" name="recordar">
+                <label class="remember-label">
+                    <input class="form-control" type="checkbox" name="recordar">
                     Recordar mi sesión
                 </label>
 
                 <br><br>
 
-                <div style="text-align: center;">
+                <div class="button-area">
 
-                    <button
+                    <button class="primary-button"
                         type="submit"
-                        style="background-color: #0B1F3A; color: white; padding: 12px 30px; border: none; cursor: pointer;"
                     >
                         Ingresar
                     </button>
 
                 </div>
 
-                <p style="text-align: center; font-size: 14px;">
+                <p class="small-centered-text">
                     ¿Olvidaste tu contraseña?
-                    <a href="#recuperar" style="color: #163A5F;">Recuperar contraseña</a>
+                    <a class="text-link" href="#recuperar">Recuperar contraseña</a>
                 </p>
 
             </form>
@@ -108,7 +106,7 @@
         </section>
 
         <section id="recuperar">
-            <p style="color: #555; font-size: 14px;">
+            <p class="muted-text">
                 Para recuperar tu contraseña, comunícate con nuestro equipo de atención al cliente.
             </p>
         </section>
@@ -116,7 +114,7 @@
     </main>
 
     <!-- PIE DE PAGINA -->
-    <footer style="background-color: #0B1F3A; color: white; text-align: center; padding: 20px;">
+    <footer class="site-footer">
 
         <p>&copy; 2026 Aerolínea JJY. Todos los derechos reservados.</p>
 
