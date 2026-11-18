@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelos y Servicios - Aerolínea JJY</title>
+</head>
+
+<body style="margin: 0; font-family: Arial; background-color: #F4F7FB;">
+
+    <!-- ENCABEZADO -->
+    <header style="background-color: #0B1F3A; color: white; text-align: center; padding: 25px;">
+
+        <h1>Aerolínea JJY</h1>
+        <p>Conectamos destinos, acercamos personas.</p>
+
+    </header>
+
+    <!-- MENU DE NAVEGACION -->
+    <nav style="background-color: #163A5F; text-align: center; padding: 15px;">
+
+        <a href="index.html" style="color: white;">Inicio</a> |
+        <a href="nosotros.html" style="color: white;">Sobre Nosotros</a> |
+        <a href="servicios.html" style="color: white;">Vuelos y Servicios</a> |
+        <a href="contacto.html" style="color: white;">Contáctanos</a> |
+        <a href="login.html" style="color: white;">Iniciar Sesión</a> |
+        <a href="sitios.html" style="color: white;">Sitios de Interés</a>
+
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main style="padding: 40px 20px; text-align: center;">
+
+        <h2 style="color: #0B1F3A;">Vuelos y Servicios</h2>
+
+        <p style="color: #444;">
+            En Aerolínea JJY trabajamos para ofrecerte una experiencia
+            de viaje cómoda, segura y agradable.
+        </p>
+
+        <!-- CONSULTA DE VUELOS -->
+        <section style="background-color: white; max-width: 600px; margin: 30px auto; padding: 30px;">
+
+            <h3 style="color: #163A5F;">Consulta nuestros vuelos</h3>
+
+            <img
+                src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600"
+                alt="Avion de pasajeros"
+                width="350"
+            >
+
+            <p style="color: #444;">
+                Completa los siguientes datos para consultar tu próximo viaje.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="origen">Ciudad de origen:</label>
+
+                <br><br>
+
+                <select id="origen" name="origen" required>
+                    <option value="">Seleccione una ciudad</option>
+                    <option value="bogota">Bogotá</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                    <option value="cartagena">Cartagena</option>
+                    <option value="santa-marta">Santa Marta</option>
+                </select>
+
+                <br><br>
+
+                <label for="destino">Ciudad de destino:</label>
+
+                <br><br>
+
+                <select id="destino" name="destino" required>
+                    <option value="">Seleccione una ciudad</option>
+                    <option value="bogota">Bogotá</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                    <option value="cartagena">Cartagena</option>
+                    <option value="santa-marta">Santa Marta</option>
+                </select>
+
+                <br><br>
+
+                <label for="fecha">Fecha de salida:</label>
+
+                <br><br>
+
+                <input type="date" id="fecha" name="fecha" required>
+
+                <br><br>
+
+                <label for="pasajeros">Número de pasajeros:</label>
+
+                <br><br>
+
+                <input type="number" id="pasajeros" name="pasajeros"
+                min="1" max="10" required>
+
+                <br><br>
+
+                <button type="submit"
+                style="background-color: #0B1F3A; color: white; padding: 12px 30px; border: none;">
+                    Buscar vuelos
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- DESTINOS -->
+        <section>
+
+            <h3 style="color: #163A5F;">Nuestros destinos</h3>
+
+            <p style="color: #444;">
+                Conoce algunos de los lugares que puedes visitar con nosotros.
+            </p>
+
+            <article style="background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;">
+
+                <h4 style="color: #0B1F3A;">Bogotá</h4>
+
+                <img
+                    src="https://scontent.feoh5-1.fna.fbcdn.net/v/t51.82787-15/581318700_18536549569036062_4178917341462190600_n.webp?stp=dst-jpg_tt6&cstp=mx1440x1799&ctp=s1440x1799&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mNAs1hVl2cUQ7kNvwH-DFmr&_nc_oc=AdpZvqrM2ufJlD_E_qnvMsfrHbhMLvuKLN44SUv19SD5cneDQe7AY3ssObmHz7fSbpw&_nc_zt=23&_nc_ht=scontent.feoh5-1.fna&_nc_gid=obvyFQZwIIGgjdsvmLmzyw&_nc_ss=7a289&oh=00_AQSOZ5b8s0DllWzXw27zY5EbVKYjksN3KY8KiSXaqoCpjA&oe=6AF6AC19"
+                    alt="Paisaje urbano de Bogotá"
+                    width="300"
+                >
+
+                <p>
+                    Conoce la capital de Colombia y disfruta de su cultura,
+                    gastronomía y lugares turísticos.
+                </p>
+
+            </article>
+
+            <article style="background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;">
+
+                <h4 style="color: #0B1F3A;">Medellín</h4>
+
+                <img
+                    src="https://cdnwordpresstest-f0ekdgevcngegudb.z01.azurefd.net/es/wp-content/uploads/2026/06/Imagen-panoramica-nocturna-de-Medellin.jpg"
+                    alt="Ciudad de Medellín"
+                    width="300"
+                >
+
+                <p>
+                    Visita la ciudad de la eterna primavera y descubre
+                    sus paisajes y atractivos turísticos.
+                </p>
+
+            </article>
+
+            <article style="background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;">
+
+                <h4 style="color: #0B1F3A;">Cartagena</h4>
+
+                <img
+                    src="https://www.semana.com/resizer/v2/IRPWWU3MUBCLXKH72LSWRLVO7M.jpeg?smart=true&auth=6eca3f326a57feeb43241ea2c3c27f51a38e56ddf6025acab70562c7b5c6dce1&width=980&height=551"
+                    alt="Calles de Cartagena"
+                    width="300"
+                >
+
+                <p>
+                    Disfruta de sus playas, su arquitectura colonial
+                    y su hermosa ciudad amurallada.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- SERVICIOS ADICIONALES -->
+        <section>
+
+            <h3 style="color: #163A5F;">Nuestros servicios</h3>
+
+            <p style="color: #444;">
+                También contamos con servicios adicionales para
+                hacer que tu viaje sea mucho más agradable.
+            </p>
+
+            <article style="background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;">
+
+                <h4 style="color: #0B1F3A;">Equipaje</h4>
+
+                <img
+                    src="https://fotografias-2.larazon.es/clipping/cmsimages01/2026/06/22/CAABD35B-83FD-448B-9930-739DC5397C99/equipaje-mano-cero-preocupaciones-maletas-que-mas-merecen-pena-tus-vacaciones_97.jpg?crop%3D1904%2C1071%2Cx0%2Cy1%26width%3D1600%26height%3D900%26optimize%3Dlow%26format%3Dwebply"
+                    alt="Maletas de viaje"
+                    width="300"
+                >
+
+                <p>
+                    Transporta tus pertenencias de manera cómoda
+                    y segura durante tu viaje.
+                </p>
+
+            </article>
+
+            <article style="background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;">
+
+                <h4 style="color: #0B1F3A;">Selección de asientos</h4>
+
+                <img
+                    src="https://img.flytrippers.com/wp-content/uploads/2025/04/14061138/get-full-row-seats-plane.jpg"
+                    alt="Destino para disfrutar durante las vacaciones"
+                    width="300"
+                >
+
+                <p>
+                    Queremos que disfrutes de un viaje cómodo
+                    y tengas una buena experiencia.
+                </p>
+
+            </article>
+
+            <article style="background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;">
+
+                <h4 style="color: #0B1F3A;">Atención al cliente</h4>
+
+                <img
+                    src="https://static.hosteltur.com/app/public/uploads/img/releases/2016/01/01/L_5b146751289a9_B_723201657c6df5d5324bd3450fd65fa0.jpg"
+                    alt="Servicio de viajes"
+                    width="300"
+                >
+
+                <p>
+                    Nuestro equipo está disponible para ayudarte
+                    y resolver tus dudas.
+                </p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer style="background-color: #0B1F3A; color: white; text-align: center; padding: 20px;">
+
+        <p>&copy; 2026 Aerolínea JJY. Todos los derechos reservados.</p>
+
+    </footer>
+
+</body>
+</html>

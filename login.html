@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Aerolínea JJY</title>
+</head>
+
+<body style="margin: 0; font-family: Arial; background-color: #F4F7FB;">
+
+    <!-- ENCABEZADO -->
+    <header style="background-color: #0B1F3A; color: white; text-align: center; padding: 25px;">
+
+        <h1>Aerolínea JJY</h1>
+        <p>Conectamos destinos, acercamos personas.</p>
+
+    </header>
+
+    <!-- MENU DE NAVEGACION -->
+    <nav style="background-color: #163A5F; text-align: center; padding: 15px;">
+
+        <a href="index.html" style="color: white;">Inicio</a> |
+        <a href="nosotros.html" style="color: white;">Sobre Nosotros</a> |
+        <a href="servicios.html" style="color: white;">Vuelos y Servicios</a> |
+        <a href="contacto.html" style="color: white;">Contáctanos</a> |
+        <a href="login.html" style="color: white;">Iniciar Sesión</a> |
+        <a href="sitios.html" style="color: white;">Sitios de Interés</a>
+
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main style="padding: 40px 20px; text-align: center;">
+
+        <h2 style="color: #0B1F3A;">Bienvenido a Aerolínea JJY</h2>
+
+        <p style="color: #444;">
+            Inicia sesión para acceder a nuestros servicios y disfrutar de una mejor experiencia de viaje.
+        </p>
+
+        <!-- FORMULARIO DE INICIO DE SESION -->
+        <section style="background-color: white; max-width: 400px; margin: 30px auto; padding: 30px; text-align: left;">
+
+            <h3 style="color: #163A5F; text-align: center;">Iniciar Sesión</h3>
+
+            <form action="#" method="post">
+
+                <label for="correo" style="color: #0B1F3A;">
+                    Correo electrónico:
+                </label>
+
+                <br><br>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Ingrese su correo electrónico"
+                    required
+                    style="width: 95%; padding: 10px; border: 1px solid #ccc;"
+                >
+
+                <br><br>
+
+                <label for="contrasena" style="color: #0B1F3A;">
+                    Contraseña:
+                </label>
+
+                <br><br>
+
+                <input
+                    type="password"
+                    id="contrasena"
+                    name="contrasena"
+                    placeholder="Ingrese su contraseña"
+                    required
+                    style="width: 95%; padding: 10px; border: 1px solid #ccc;"
+                >
+
+                <br><br>
+
+                <label style="color: #444;">
+                    <input type="checkbox" name="recordar">
+                    Recordar mi sesión
+                </label>
+
+                <br><br>
+
+                <div style="text-align: center;">
+
+                    <button
+                        type="submit"
+                        style="background-color: #0B1F3A; color: white; padding: 12px 30px; border: none; cursor: pointer;"
+                    >
+                        Ingresar
+                    </button>
+
+                </div>
+
+                <p style="text-align: center; font-size: 14px;">
+                    ¿Olvidaste tu contraseña?
+                    <a href="#recuperar" style="color: #163A5F;">Recuperar contraseña</a>
+                </p>
+
+            </form>
+
+        </section>
+
+        <section id="recuperar">
+            <p style="color: #555; font-size: 14px;">
+                Para recuperar tu contraseña, comunícate con nuestro equipo de atención al cliente.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer style="background-color: #0B1F3A; color: white; text-align: center; padding: 20px;">
+
+        <p>&copy; 2026 Aerolínea JJY. Todos los derechos reservados.</p>
+
+    </footer>
+
+</body>
+</html>
